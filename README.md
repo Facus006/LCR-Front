@@ -29,22 +29,22 @@ La app corre en `http://localhost:5173` y consume el backend en `http://localhos
 ## 📸 Vistas
 
 ### Página principal
-![Vista principal](https://github.com/user-attachments/assets/fe484110-a1dd-46a8-81be-a6c3042100e4)
+![Vista principal](https://github.com/user-attachments/assets/0a8a98c9-cd77-447a-bd72-6d1723593982)
 
 ### Mods destacados
-![Mods destacados](https://github.com/user-attachments/assets/ed5eb5a0-233b-4dbc-9d21-ecd4ec8f6549)
+![Mods destacados](https://github.com/user-attachments/assets/4d6daedd-d336-4e12-a3aa-b00b6bed752b)
 
 ### Detalle de un mod
-![Vista producto](https://github.com/user-attachments/assets/2b016d75-3b17-45a8-83c0-6765dbfa8c02)
+![Vista producto](https://github.com/user-attachments/assets/9f147074-30b1-4836-b367-27ec4f0c7208)
 
 ### Login
-![Login](https://github.com/user-attachments/assets/ef8172d0-428b-44f0-9cfe-4b9abe807cd5)
+![Login](https://github.com/user-attachments/assets/92718243-72b4-4a1d-85d3-ef6897c7cd15)
 
 ### Búsqueda de mods
-![Búsqueda](https://github.com/user-attachments/assets/09279975-cde7-4ff3-b3bf-7c709ab150a8)
+![Búsqueda](https://github.com/user-attachments/assets/8eaad707-4f77-4005-8407-2e182da63cdc)
 
 ### Panel admin — Ingresar mod
-![Ingresar mod](https://github.com/user-attachments/assets/5128e58c-b300-480a-91c7-8318a73c1db4)
+![Ingresar mod](https://github.com/user-attachments/assets/ba9dfb31-4802-4059-82b9-0cf9d06ed860)
 
 ### Panel admin — Lista de publicaciones
-![Lista publicaciones](https://github.com/user-attachments/assets/fef639da-0a3f-4c2b-a7a5-e259588f8087)
+![Lista publicaciones](https://github.com/user-attachments/assets/e78f3a98-1713-4cb2-a55c-123664d674cc)
