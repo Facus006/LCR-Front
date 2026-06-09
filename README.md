@@ -32,7 +32,7 @@ La app corre en `http://localhost:5173` y consume el backend en `http://localhos
 ![Vista principal](https://github.com/user-attachments/assets/0a8a98c9-cd77-447a-bd72-6d1723593982)
 
 ### Mods destacados
-![Mods destacados](https://github.com/user-attachments/assets/4d6daedd-d336-4e12-a3aa-b00b6bed752b)
+![Mods destacados](https://github.com/user-attachments/assets/82e17bf6-4852-4924-8f53-7cb1ec9d353d)
 
 ### Detalle de un mod
 ![Vista producto](https://github.com/user-attachments/assets/9f147074-30b1-4836-b367-27ec4f0c7208)
