@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:wght@400;500&display=swap');
+
+.page {
+  background: #0a0a0a;
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* ===== HEADER ===== */
+.header {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #1f1f1f;
+  margin-bottom: 2.5rem;
+}
+
+.headerTag {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e8001c;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.headerTitle {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: #f0ede8;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 0.35rem;
+  line-height: 1;
+}
+
+.headerSub {
+  font-size: 0.8rem;
+  color: #666460;
+  margin: 0;
+}
+
+/* ===== EMPTY STATE ===== */
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+.emptyIcon {
+  color: #2a2a2a;
+}
+
+.emptyText {
+  font-size: 0.88rem;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+.emptyLink {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #e8001c;
+  text-decoration: none;
+  border: 1px solid #a8001a;
+  padding: 0.4rem 1rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.emptyLink:hover {
+  background: #e8001c;
+  color: #f0ede8;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .inner { padding: 2rem 1rem 3rem; }
+}

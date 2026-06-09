@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:wght@400;500&display=swap');
+
+.footer {
+  background: #0a0a0a;
+  border-top: 1px solid #1f1f1f;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: auto;
+}
+
+/* Franja roja superior — espejo del navbar */
+.topBar {
+  height: 2px;
+  background: #e8001c;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+/* ===== BRAND ===== */
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.logoAccent {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e8001c;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.logoSub {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* ===== COLUMNS ===== */
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.colTitle {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #e8001c;
+  margin: 0 0 0.4rem;
+}
+
+.link {
+  font-size: 0.83rem;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.15s;
+  width: fit-content;
+}
+
+.link:hover {
+  color: #f0ede8;
+}
+
+/* ===== BOTTOM BAR ===== */
+.bottom {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copy {
+  font-size: 0.75rem;
+  color: #3a3a3a;
+  letter-spacing: 0.02em;
+}
+
+.flag {
+  font-size: 1rem;
+  opacity: 0.4;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+}
